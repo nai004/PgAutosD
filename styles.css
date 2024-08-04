@@ -1,0 +1,88 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #f5dde9;
+    padding: 10px 0;
+    box-shadow: 0 2px 10px rgba(255, 105, 180, 0.5);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(238, 179, 207);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: #eb6da1;
+    padding: 20px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    background-color: rgb(236, 207, 207);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.3);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+}
+
+.card h2 {
+    color: #2c0612;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.info-button {
+    display: inline-block;
+    background-color: #ff69b4;
+    border: none;
+    border-radius: 5px;
+    color: rgb(238, 192, 192);
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.info-button:hover {
+    background-color: #ff1493;
+}
